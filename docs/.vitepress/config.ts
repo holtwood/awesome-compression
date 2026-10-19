@@ -71,7 +71,7 @@ export default defineConfig({
     outline: [2, 3],
     search: { provider: 'local' },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/build-workbench/awesome-compression' }
+      { icon: 'github', link: 'https://github.com/holtwood/awesome-compression' }
     ]
   }
 })

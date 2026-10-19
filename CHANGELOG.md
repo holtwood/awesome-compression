@@ -91,6 +91,6 @@ _(暂无)_
 - Basic compression examples for ZSTD, LZMA, LZ4, zlib, Brotli
 - BSC placeholder example
 
-[Unreleased]: https://github.com/build-workbench/awesome-compression/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/build-workbench/awesome-compression/compare/v0.1.0...v1.0.0
-[0.1.0]: https://github.com/build-workbench/awesome-compression/releases/tag/v0.1.0
+[Unreleased]: https://github.com/holtwood/awesome-compression/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/holtwood/awesome-compression/compare/v0.1.0...v1.0.0
+[0.1.0]: https://github.com/holtwood/awesome-compression/releases/tag/v0.1.0
