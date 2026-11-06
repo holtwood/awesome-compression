@@ -43,8 +43,7 @@
 - [LZFSE](https://github.com/lzfse/lzfse) - Apple 的 LZ77+ANS 压缩算法，iOS/macOS 系统自带.
 - [LZHAM](https://github.com/richgel999/lzham_codec) - 压缩率接近 LZMA、解压更快的变形算法.
 - [BSC](https://github.com/IlyaGrebnov/libbsc) - 基于 BWT + 上下文混合的高压缩率算法，本仓库示例之一.
-- [LZMA SDK](https://github.com/jljusten/LZMA-SDK) - 官方 LZMA SDK 的 GitHub 镜像（与 7-Zip 同源）.
-- [7-Zip](https://github.com/ip7z/7zip) - 7z 格式官方源码镜像，支持 7z/xz/zstd 等多种格式.
+- [LZMA SDK](https://www.7-zip.org/sdk.html) - 官方 LZMA SDK 下载页（随 7-Zip 发布，与 7-Zip 同源）.
 - [FastLZ](https://github.com/ariya/FastLZ) - 极简轻量的快速压缩库.
 - [zling](https://github.com/richox/zling) - 追求高压缩率与快速解压的通用压缩库.
 - [FiniteStateEntropy (FSE)](https://github.com/Cyan4973/FiniteStateEntropy) - ANS 熵编码（tANS）的参考实现，zstd 的核心组件.
@@ -55,7 +54,7 @@
 - [flate2](https://github.com/rust-lang/flate2-rs) - DEFLATE/gzip/zlib 的实现与绑定，Cargo 生态默认选择.
 - [lz4_flex](https://github.com/PSeitz/lz4_flex) - 纯 Rust 的 LZ4 实现，含帧格式支持.
 - [snap](https://github.com/BurntSushi/rust-snappy) - 纯 Rust 的 Snappy 实现，含流式帧格式.
-- [zlib-rs](https://github.com/memorysafety/zlib-rs) - ISRG 的 Prossimo 项目发起、用 Rust 重写的 zlib，性能与 zlib-ng 相当.
+- [zlib-rs](https://github.com/trifectatechfoundation/zlib-rs) - 由 ISRG Prossimo 项目发起、现由 Trifecta Tech Foundation 维护的 Rust zlib 实现，性能与 zlib-ng 相当.
 - [rust-brotli](https://github.com/dropbox/rust-brotli) - Brotli 的纯 Rust 实现（Dropbox 维护）.
 - [lzma-rs](https://github.com/gendx/lzma-rs) - 纯 Rust 的 LZMA/LZMA2 解码实现.
 - [miniz_oxide](https://github.com/Frommi/miniz_oxide) - 纯 Rust 的 DEFLATE 实现，flate2 的默认后端.
@@ -64,7 +63,7 @@
 
 - [klauspost/compress](https://github.com/klauspost/compress) - Go 压缩算法集（zstd/snappy/gzip/brotli 等），注重性能.
 - [pierrec/lz4](https://github.com/pierrec/lz4) - LZ4 的 Go 实现（含帧格式）.
-- [snappy](https://github.com/golang/snappy) - 官方 Go 实现（标准库 compress/snappy 同源）.
+- [snappy](https://github.com/golang/snappy) - Go 团队维护的 Snappy 独立实现（非标准库）.
 - [dsnet/compress](https://github.com/dsnet/compress) - 纯 Go 的 brotli/bzip2/flate 实现.
 
 ### Java
@@ -82,7 +81,7 @@
 
 - [fflate](https://github.com/101arrowz/fflate) - 快速、小体积的浏览器/Node 压缩库（gzip/deflate/zlib，支持 ZIP）.
 - [pako](https://github.com/nodeca/pako) - 为 zlib 提供 JavaScript 移植，最经典的浏览器方案.
-- [brotli.js](https://github.com/devongovett/brotli.js) - 纯 JS 的 Brotli 实现.
+- [brotli.js](https://github.com/foliojs/brotli.js) - 可在浏览器和 Node.js 使用的 Brotli JS 实现（压缩端由 Emscripten 移植）.
 
 ## 高压缩率与研究实现
 
@@ -113,7 +112,7 @@
 
 ## 工具
 
-- [7-Zip](https://www.7-zip.org) - 最流行的开源归档工具，支持 7z/xz/zstd 等格式.
+- [7-Zip](https://www.7-zip.org) - 最流行的开源归档工具，支持 7z/xz 等格式，可解压 zstd.
 - [pigz](https://github.com/madler/pigz) - 并行 gzip 实现，充分利用多核.
 - [lzip](https://lzip.nongnu.org/) - 面向数据恢复的 LZMA 压缩工具（含 lziprecover）.
 - [Efficient Compression Tool (ECT)](https://github.com/fhanau/Efficient-Compression-Tool) - 高性能文件优化器（PNG/JPEG/ZIP 等）.
@@ -144,7 +143,7 @@
 
 ## 本仓库配套内容
 
-- [文档站（docs/）](https://github.com/holtwood/awesome-compression/blob/main/docs/zh/index.md) - VitePress 中文文档：压缩基础、算法笔记、选型对比.
+- [文档站](https://holtwood.github.io/awesome-compression/) - VitePress 中文文档：压缩基础、算法笔记、选型对比.
 - [C++ 示例（examples/cpp/）](https://github.com/holtwood/awesome-compression/blob/main/examples/cpp/README.md) - 可运行的 C++17 示例：zstd/LZMA/BSC/LZ4/zlib/Brotli 的压缩-解压-校验闭环.
 
 ## 相关精选列表

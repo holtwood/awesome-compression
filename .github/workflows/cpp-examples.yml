@@ -28,7 +28,8 @@ jobs:
       - name: Configure ccache
         uses: actions/cache@v4
         with:
-          path: ~/.ccache
+          # ccache 4.x 在 Linux 上默认使用 ~/.cache/ccache。
+          path: ~/.cache/ccache
           key: ccache-${{ runner.os }}-${{ hashFiles('examples/cpp/CMakeLists.txt', 'examples/cpp/**') }}
           restore-keys: ccache-${{ runner.os }}-
       - name: Configure
